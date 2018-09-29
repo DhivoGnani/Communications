@@ -1,0 +1,4 @@
+﻿  Lab1_ECE358.cpp
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(112): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(133): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Lab1_ECE358.vcxproj -> C:\Users\dhivo\source\repos\Lab1_ECE358\Debug\Lab1_ECE358.exe
