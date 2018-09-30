@@ -1,4 +1,12 @@
 ﻿  Lab1_ECE358.cpp
-c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(112): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(133): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(116): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(136): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Test.cpp
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\test.cpp(35): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\test.cpp(50): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\test.cpp(55): warning C4018: '<': signed/unsigned mismatch
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\test.cpp(57): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\test.cpp(119): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
   Lab1_ECE358.vcxproj -> C:\Users\dhivo\source\repos\Lab1_ECE358\Debug\Lab1_ECE358.exe
