@@ -1,7 +1,14 @@
-﻿  Lab1_ECE358.cpp
-c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(107): warning C4018: '<': signed/unsigned mismatch
-c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(116): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(136): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+﻿  pch.cpp
+  Lab1_ECE358.cpp
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(239): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(310): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(322): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(339): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(345): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(351): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(357): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(363): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\lab1_ece358.cpp(369): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   Test.cpp
 c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\test.cpp(35): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
 c:\users\dhivo\source\repos\lab1_ece358\lab1_ece358\test.cpp(50): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data

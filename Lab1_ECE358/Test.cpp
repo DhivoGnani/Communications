@@ -6,7 +6,7 @@
 #include <queue>   
 #include <iomanip>
 
-struct Packet {
+struct SimulatedPacket {
 	int ticks_until_departure;
 	int arrival_time;
 };
@@ -22,7 +22,7 @@ std::default_random_engine generator;
 std::uniform_real_distribution<double> distribution(0.0, 1.0);
 
 // int for now, change to packet struct later
-std::queue<Packet*> router_queue;
+std::queue<SimulatedPacket*> router_queue;
 
 int idle_counter = 0;
 double num_of_packets_in_queue_total = 0;
@@ -53,7 +53,7 @@ int calculate_arrival_time() {
 void arrival(int current_time) {
 	if (current_time >= arrival_time) {
 		if (queue_size == -1 || (queue_size > 0 && router_queue.size() < queue_size)) {
-			Packet *new_packet = new Packet();
+			SimulatedPacket *new_packet = new SimulatedPacket();
 			new_packet->ticks_until_departure = (L_packet_size / C_transmission_rate * TICK_SIZE);
 			new_packet->arrival_time = current_time;
 
@@ -96,7 +96,7 @@ void experiment() {
 	}
 }
 
-int main() {
+int r() {
 	int queue_sizes[4] = { -1, 5, 10, 40 };
 	std::cout << "Queue Size, Row, Loss Counter, Idle Counter, E[N], E[T]" << std::endl;
 	for (int k = 0; k < 4; k++) {
